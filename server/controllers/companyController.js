@@ -145,7 +145,7 @@
 
 
 
-import Company from '../models/companyModel.js';
+
 
 export const getCompanies = async (req, res) => {
   try {
