@@ -1,16 +1,7 @@
-// backend/models/companyModel.js
 import mongoose from 'mongoose';
-import reviewSchema from './reviewModel.js'; // Import the review schema
+import reviewSchema from './reviewModel.js';
 
-// const reviewSchema = mongoose.Schema(
-//   {
-//     name: { type: String, required: true },
-//     rating: { type: Number, required: true },
-//     subject: { type: String, required: true },
-//     comment: { type: String, required: true },
-//   },
-//   { timestamps: true }
-// );
+
 
 const companySchema = mongoose.Schema(
   {
