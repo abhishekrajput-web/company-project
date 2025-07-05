@@ -4,6 +4,7 @@
   publish = "client/dist"
 
 [[redirects]]
+ NODE_VERSION = "18.18.2"
   from = "/*"
   to = "/index.html"
   status = 200
